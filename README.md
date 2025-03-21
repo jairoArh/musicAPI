@@ -44,5 +44,5 @@ Schema Song
 - http://127.0.0.1/song - GET. Recupera todos los registros
 - http://127.0.0.1/sing/:id - GET. Busca por ID
 - http://127.0.0.1/song/:id - POST. Adiciona un nuevo registro
-- http://127.0.0.1/sing/:id - PUT. Actualiza un registro
-- http://127.0.0.1/sing/:id - DELETE. Elimina un regsitro
+- http://127.0.0.1/song/:id - PUT. Actualiza un registro
+- http://127.0.0.1/song/:id - DELETE. Elimina un regsitro

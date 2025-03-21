@@ -1,0 +1,30 @@
+{
+  "name": "musicapi",
+  "version": "1.0.0",
+  "description": "Ejemplo de una API RESTFul para gestionar cantantes 👨‍🦲 y canciones 🎵",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jairoArh/musicAPI.git"
+  },
+  "keywords": ["nodejs", "express", "RESTFul", "JS"],
+  "author": "Jairo Armando",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jairoArh/musicAPI/issues"
+  },
+  "homepage": "https://github.com/jairoArh/musicAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
